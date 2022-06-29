@@ -1,1 +1,16 @@
 navin
+
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/yourusername/your-repo-name.git
+git branch -M main
+git push -u origin main
+
+
+
+if line 8 does not work : $ git push --force origin main
+ git checkout -b branchname   <!--(create branch and witched to it) --!>
+ 
+ you can also create new branch and merge it into main or during creating repository select main and make it default branch
+
